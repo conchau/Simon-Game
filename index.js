@@ -47,7 +47,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
 
-        $("#level-title").text("Wow, you fucking suck! Press Any Key to Restart");
+        $("#level-title").text("Game Over! Press Any Key to Restart");
 
         startOver();
     }
